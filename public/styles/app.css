@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+}
+#altura{
+    height: 75vh;
+}
+
+/* MENU */
+.header{
+    top: 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header img{
+    width: 8rem;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    margin: 0rem 2rem;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer img{
+    width: 6rem;
+}
+.footer ul{
+    display: flex;
+}
+.footer li{
+    margin: 0rem 2rem;
+}
+.footer a, p{
+    text-decoration: none;
+    color: white;
+}

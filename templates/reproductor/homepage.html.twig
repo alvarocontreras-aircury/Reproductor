@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bolixe{% endblock %}
+
+{% block header %}
+    <div class="header">
+        <img src="{{ asset('assets/logo.png') }}" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Reproductor</a></li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}
+
+{% block body %}
+    <div id="altura">
+        <h1>Bolixe</h1>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <div class="footer">
+        <p>© Aircury S.L. Todos los derechos reservados</p>
+        <img src="{{ asset('assets/logo.png') }}" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="/">Procesadores</a></li>
+                <li><a href="/">Política de privacidad</a></li>
+                <li><a href="/">Política de cookies</a></li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}
